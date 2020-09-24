@@ -8,10 +8,14 @@ permalink: /about/
 ![Image Test](https://github.com/tgiv014.png){: style="border-radius: 50%;"}
 {: refdef}
 
-Hi, I'm Thomas Gorham. I graduated with a bachelor's degree in Electrical Engineering (Comm. Systems and Design Specialization) from Kansas State in 2018. Since then, I've been an Electronics Design Engineer for the Marine Radar team at Garmin. I've worked on everything from high-accuracy GPS receivers to low-power human interface devices to FPGA-powered radars. Before that, I served as a Software Engineer intern in their Aviation and Marine segments.
+# About Me
+Hi, I'm Thomas. I'm an electronics engineer based in Kansas City. I graduated with a degree in Electrical Engineering (Comm. Systems and Design) from Kansas State in 2018. Since then, I've been an Electronics Design Engineer for the Marine Radar team at Garmin. I've worked on high-accuracy GPS receivers, low-power human interface devices, and FPGA-based radars. Before that, I was a Software Engineer intern in their Aviation and Marine segments.
 
-My design experience falls primarily in the digital electronics domain with some basic RF design as well. I have experience writing VHDL and Verilog for signal processing and digital interfacing applications in the Xilinx Zynq ecosystem. I also love to use my software background to pitch in on low-level integration and linux kernel work.
+I'm experienced in digital electronics design with some basic RF design as well. Outside of schematic and PCB design, I write VHDL in the Xilinx Zynq Ultrascale ecosystem and pitch in on low-level RTOS and Linux Kernel work when I can.
 
-I'm very comfortable writing C, Python, Verilog, and VHDL. I'm very familiar with CAD, both eletrical and mechanical. I'm currently trying to build up some comfort and experience using rust.
+My preferred languages are C, Python, Verilog, and VHDL. I'm working on becoming a [Rustacean](https://www.rust-lang.org/).
 
-At home, I love working with open source hardware, 3d printing, and embedded software. My current obsession is rebuilding my home server setup from the ground up starting with a debian install on a secondhand Dell R710.
+Outside of the office, I love open source hardware, 3d printing, and embedded software. My current hobby project is building up a home server setup with Debian, ZFS, and Docker on a secondhand Dell R710.
+
+# About the Site
+This site is built using [Jekyll](https://jekyllrb.com/) and a [modified version of minima](https://github.com/tgiv014/minima). I chose the domain mntn.dev because it's short, mountains are neat, and I consider myself a developer.
