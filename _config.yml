@@ -28,6 +28,7 @@ minima:
   social_links:
     twitter: TGorhamIV
     github:  tgiv014
+    linkedin: thomas-gorham
     
 # Build settings
 markdown: kramdown
