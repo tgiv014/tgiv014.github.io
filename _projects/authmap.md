@@ -18,8 +18,10 @@ This project originally started out as my first foray into Rust. Pretty soon aft
 
 # Goals
 I have a few goals to refine this project into something more useful:
-- Remove every instance of hardcoding and read all configurables from a YAML file.
-- Allow grouping requests from the same IP/location in a smart way.
+- ~~Remove every instance of hardcoding and read all configurables from a YAML file.~~
+  - Done! Now, the only hardcoded configuration item is the config's location. The application will also generate a default configuration automatically if a config is not found.
+- ~~Allow grouping requests from the same IP/location in a smart way.~~
+  - Done! The `ip` field is now a tag. This allows grouping by ip and aggregating results within those groups.
 - Automate downloading the MaxMind GeoIP database.
   - This will require user interaction since the database has licensing requirements now.
 - Make the docker container for this package more accessible.
