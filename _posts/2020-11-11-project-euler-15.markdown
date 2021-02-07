@@ -60,6 +60,7 @@ fn main() {
 
 Go get a coffee or two, because this took ~30min to run on my machine.
 
+*Edit: This can be heavily optimized without abandoning the tree structure! More info in [this more recent post]({% post_url 2021-02-06-project-euler-15-addendum %}).*
 # An ugly way
 Suppose you were told to solve this problem on an FPGA and you have *no clue* what combination is. Since we know the length of a path is *2N*, we'll start with a *2N*-bit wide counter. Let's say down = 1 and right = 0. We can initialize a down-counter with all 1s and let it run all the way down to 0. Since we know a valid path has #rights=#downs=*N*, we'll look at every counter value and keep track of the number of values which have exactly *N* ones. That number is the number of possible paths! 
 
