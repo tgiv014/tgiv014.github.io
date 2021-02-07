@@ -5,8 +5,6 @@ date:   2021-02-03 00:00:00 -0500
 categories: code
 ---
 
-<!-- *Doing the right things the wrong way.* -->
-
 # The Problem
 Lately, I've been playing with algorithmic trading using [Backtrader](https://www.backtrader.com/), which is a spectacular tool for experimenting with algorithmic trading strategies. This hobby could be considered a problem in itself, but that's not today's topic. A strategy I've been testing involves maintaining a list of S&P500 stocks, ranking them by some metrics, and making a portfolio out of the top 20% or so. Essentially, a really impersonal buy-and-hold strategy.
 
